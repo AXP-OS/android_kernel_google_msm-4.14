@@ -15,7 +15,7 @@ jobs:
     uses: AXP-OS/.github/.github/workflows/sync_upstream.yml@main
     with:
         remote-repo: LineageOS/${{ github.event.repository.name }}
-        remote-branch: lineage-22.0
+        remote-branch: lineage-22.2
         local-repo: ${{ github.repository_owner }}/${{ github.event.repository.name }}
         local-branch: "axp-a15"
         dryrun: false
